@@ -69,5 +69,10 @@
       <name>1-0</name>
       <tag>MAVEN_sillyexceptions_1_0</tag>
     </version>
+    <version>
+      <id>1-0</id>
+      <name>1-0</name>
+      <tag>sillyexceptions_1-0</tag>
+    </version>
   </versions>
 </project>
