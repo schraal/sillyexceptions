@@ -1,5 +1,5 @@
 /*
-Silly exceptions - A library of funny sounding, but usefull Java Exceptions.
+Silly exceptions - A library of funny sounding, but useful Java Exceptions.
 Copyright (C) 2004  W.H. Schraal, sillyexceptions.sf.net
 
 This library is free software; you can redistribute it and/or
