@@ -5,7 +5,7 @@
   <id>sillyexceptions</id>
   <name>Silly exceptions</name>
   <groupId>sillyexceptions</groupId>
-  <currentVersion>1-0</currentVersion>
+  <currentVersion>1-0-1</currentVersion>
   <inceptionYear>2004</inceptionYear>
   <package>net.sf.sillyexceptions</package>
   <description><![CDATA[
@@ -70,6 +70,11 @@
       <id>1-0</id>
       <name>1-0</name>
       <tag>sillyexceptions_1-0</tag>
+    </version>
+    <version>
+      <id>1-0-1</id>
+      <name>1-0-1</name>
+      <tag>sillyexceptions_1-0-1</tag>
     </version>
   </versions>
 </project>
