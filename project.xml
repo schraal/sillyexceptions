@@ -5,7 +5,7 @@
   <id>sillyexceptions</id>
   <name>Silly exceptions</name>
   <groupId>sillyexceptions</groupId>
-  <currentVersion>MAVEN_sillyexceptions_1_0</currentVersion>
+  <currentVersion>1-0</currentVersion>
   <inceptionYear>2004</inceptionYear>
   <package>net.sf.sillyexceptions</package>
   <description><![CDATA[
@@ -65,8 +65,8 @@
   </build>
   <versions>
     <version>
-      <id>MAVEN_sillyexceptions_1_0</id>
-      <name>MAVEN_sillyexceptions_1_0</name>
+      <id>1-0</id>
+      <name>1-0</name>
       <tag>MAVEN_sillyexceptions_1_0</tag>
     </version>
   </versions>
