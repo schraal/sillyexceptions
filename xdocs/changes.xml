@@ -1,8 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <document>
   <properties>
     <title>Silly exceptions</title>
     <author email="hippe@users.sourceforge.net">Hilbert Schraal</author>
   </properties>
   <body>
+    <release version="1-0" date="2004-09-05">
+      <action dev="hippe" type="release">Blah blah.</action>
+    </release>
   </body>
 </document>
