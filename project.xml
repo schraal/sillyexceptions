@@ -3,29 +3,74 @@
 <project>
 
 	<pomVersion>3</pomVersion>
+	<id>sillyexceptions</id>
 	<name>Silly exceptions</name>
 	<groupId>sillyexceptions</groupId>
-	<id>sillyexceptions</id>
 	<currentVersion>1.0</currentVersion>
-	<package>net.sourceforge.sillyexceptions</package>
+	<inceptionYear>2004</inceptionYear>
+	<package>net.sf.sillyexceptions</package>
+	<description>
+      <![CDATA[
+      <p>
+        This project offers Exceptions to be used in Java programs. Although
+        their names sound silly, the exceptions themselves are quite usefull.
+      </p>
+      <p>
+        Please refer to the <a href='/exceptions_overview.html'>exceptions overview</a> page for a summary of all
+        available exceptions.
+      </p>
+      ]]>
+  </description>
+	<shortDescription>This project offers silly-named but usefull Java exceptions</shortDescription>
+	<url>http://sillyexceptions.sourceforge.net</url>
+  <issueTrackingUrl>http://sourceforge.net/tracker/?atid=678567&amp;group_id=117593&amp;func=browse</issueTrackingUrl>
 
-	<dependencies>
-	</dependencies>
+  <organization>
+    <name>Silly exceptions project team</name>
+    <url>http://sourceforge.net/projects/sillyexceptions</url>
+    <logo>http://sourceforge.net/sflogo.php?group_id=61626&amp;type=5</logo>
+  </organization>
+
+  <repository>
+    <connection>scm:cvs:pserver:anonymous@cvs.sourceforge.net:/cvsroot/sillyexceptions:sillyexceptions</connection>
+    <developerConnection>scm:cvs:ext:developername@cvs.sourceforge.net:/cvsroot/sillyexceptions:sillyexceptions</developerConnection>
+    <url>http://cvs.sourceforge.net/viewcvs.py/sillyexceptions/sillyexceptions/</url>
+  </repository>
+
+	<developers>
+    <developer>
+      <name>Hilbert Schraal</name>
+      <id>hippe</id>
+      <email>hippe at users sourceforge net</email>
+      <roles>
+        <role>Project Manager</role>
+        <role>Developer</role>
+      </roles>
+      <timezone>+2</timezone>
+    </developer>
+    <developer>
+      <name>Wietze Helmantel</name>
+      <id>helmantel</id>
+      <email>helmantel at users sourceforge net</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <timezone>+2</timezone>
+    </developer>
+	</developers>
+
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License</name>
+      <url>http://www.gnu.org/licenses/lgpl.html</url>
+      <distribution>manual</distribution>
+    </license>
+  </licenses>
+
+	<dependencies/>
 
 	<build>
-
 		<sourceDirectory>src/java/</sourceDirectory>
-		<unitTestSourceDirectory>src/java</unitTestSourceDirectory>
-
-		<integrationUnitTestSourceDirectory/>
-
-		<unitTest>
-			<includes>
-				<include>**/Test*.java</include>
-			</includes>
-			<excludes/>
-		</unitTest>
-
 	</build>
 
 </project>

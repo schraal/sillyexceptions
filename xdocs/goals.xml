@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<document>
+
+	<properties>
+    <title>Silly exceptions</title>
+    <author email="hippe@users.sourforge.net">Hilbert Schraal</author>
+	</properties>
+
+	<body>
+		<section name="Goals">
+			<p>
+        The goals of the silly exceptions project are:
+        <ul>
+          <li>Having fun coming up with silly exception names.</li>
+          <li>
+            Having fun with using these exceptions in our own programs and
+            being ROTFL when encountering one of the exceptions in a stacktrace.
+          </li>
+          <li>
+            Distributing the exceptions for a wider use, thus allowing more
+            people to have fun with them. Also, others are encouraged to come
+            up with new, silly exceptions.
+          </li>
+        </ul>
+			</p>
+		</section>
+	</body>
+
+</document>

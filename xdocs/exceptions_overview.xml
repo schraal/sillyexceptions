@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<document>
+
+	<properties>
+		<title>Silly exceptions</title>
+		<author email="hippe@users.sourforge.net">Hilbert Schraal</author>
+	</properties>
+
+	<body>
+		<section name="Exceptions overview">
+			<p>
+        The following exceptions are currently available:
+        <table>
+          <tr>
+            <th>Classname</th>
+            <th>Documentation</th>
+          </tr>
+          <tr>
+            <td>OutOfTheBlueException</td>
+            <td>
+              This exception should be used at places where you don't expect
+              an exceptional situation to occur.
+              <a href='./apidocs/net/sf/sillyexceptions/OutOfTheBlueException.html'>
+              (more)</a>
+            </td>
+          </tr>
+        </table>
+			</p>
+		</section>
+	</body>
+
+</document>

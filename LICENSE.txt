@@ -16,26 +16,3 @@ You should have received a copy of the GNU Lesser General Public
 License along with this library; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
-package net.sf.sillyexceptions;
-
-/**
- * This exception should be used at places where you don't expect an exceptional
- * situation to occur.
- * <p>
- * For example, sometimes you <b>have</b> to catch an exception (because an API
- * demands it), while you are absolutely sure that the exception will never
- * occur. In that case you can better:
- * <pre>
- *    throw new OutOfTheBlueException("Properties could not be loaded, although they are always there.");
- * </pre>
- * instead of:
- * <pre>
- *    //This can never happen, since the properties are always there.
- * </pre>
- *
- * @author W.H. Schraal
- * @version $Id: OutOfTheBlueException.java,v 1.2 2004/09/05 17:01:24 hippe Exp $
- * @since 1.0
- */
-public class OutOfTheBlueException extends RuntimeException {
-}
