@@ -1,43 +1,37 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <project>
-
-	<pomVersion>3</pomVersion>
-	<id>sillyexceptions</id>
-	<name>Silly exceptions</name>
-	<groupId>sillyexceptions</groupId>
-	<currentVersion>1.0</currentVersion>
-	<inceptionYear>2004</inceptionYear>
-	<package>net.sf.sillyexceptions</package>
-	<description>
-      <![CDATA[
-      <p>
-        This project offers Exceptions to be used in Java programs. Although
-        their names sound silly, the exceptions themselves are quite usefull.
-      </p>
-      <p>
-        Please refer to the <a href='/exceptions_overview.html'>exceptions overview</a> page for a summary of all
-        available exceptions.
-      </p>
-      ]]>
-  </description>
-	<shortDescription>This project offers silly-named but usefull Java exceptions</shortDescription>
-	<url>http://sillyexceptions.sourceforge.net</url>
+  <pomVersion>3</pomVersion>
+  <id>sillyexceptions</id>
+  <name>Silly exceptions</name>
+  <groupId>sillyexceptions</groupId>
+  <currentVersion>MAVEN_sillyexceptions_1_0</currentVersion>
+  <inceptionYear>2004</inceptionYear>
+  <package>net.sf.sillyexceptions</package>
+  <description><![CDATA[
+      <p>]]><![CDATA[
+        This project offers Exceptions to be used in Java programs. Although]]><![CDATA[
+        their names sound silly, the exceptions themselves are quite usefull.]]><![CDATA[
+      </p>]]><![CDATA[
+      <p>]]><![CDATA[
+        Please refer to the <a href='/exceptions_overview.html'>exceptions overview</a> page for a summary of all]]><![CDATA[
+        available exceptions.]]><![CDATA[
+      </p>]]><![CDATA[
+      ]]></description>
+  <shortDescription>This project offers silly-named but usefull Java exceptions</shortDescription>
+  <url>http://sillyexceptions.sourceforge.net</url>
   <issueTrackingUrl>http://sourceforge.net/tracker/?atid=678567&amp;group_id=117593&amp;func=browse</issueTrackingUrl>
-
   <organization>
     <name>Silly exceptions project team</name>
     <url>http://sourceforge.net/projects/sillyexceptions</url>
     <logo>http://sourceforge.net/sflogo.php?group_id=61626&amp;type=5</logo>
   </organization>
-
   <repository>
     <connection>scm:cvs:pserver:anonymous@cvs.sourceforge.net:/cvsroot/sillyexceptions:sillyexceptions</connection>
-    <developerConnection>scm:cvs:ext:developername@cvs.sourceforge.net:/cvsroot/sillyexceptions:sillyexceptions</developerConnection>
+    <developerConnection>scm:cvs:ext:hippe@cvs.sourceforge.net:/cvsroot/sillyexceptions:sillyexceptions</developerConnection>
     <url>http://cvs.sourceforge.net/viewcvs.py/sillyexceptions/sillyexceptions/</url>
   </repository>
-
-	<developers>
+  <developers>
     <developer>
       <name>Hilbert Schraal</name>
       <id>hippe</id>
@@ -57,8 +51,7 @@
       </roles>
       <timezone>+2</timezone>
     </developer>
-	</developers>
-
+  </developers>
   <licenses>
     <license>
       <name>GNU Lesser General Public License</name>
@@ -66,18 +59,15 @@
       <distribution>manual</distribution>
     </license>
   </licenses>
-
-	<dependencies/>
-
-	<build>
-		<sourceDirectory>src/java/</sourceDirectory>
-	</build>
-
+  <dependencies/>
+  <build>
+    <sourceDirectory>src/java/</sourceDirectory>
+  </build>
+  <versions>
+    <version>
+      <id>MAVEN_sillyexceptions_1_0</id>
+      <name>MAVEN_sillyexceptions_1_0</name>
+      <tag>MAVEN_sillyexceptions_1_0</tag>
+    </version>
+  </versions>
 </project>
-
-
-
-
-
-
-
