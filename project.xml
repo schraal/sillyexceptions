@@ -21,6 +21,8 @@
   <shortDescription>This project offers silly-named but usefull Java exceptions</shortDescription>
   <url>http://sillyexceptions.sourceforge.net</url>
   <issueTrackingUrl>http://sourceforge.net/tracker/?atid=678567&amp;group_id=117593&amp;func=browse</issueTrackingUrl>
+  <siteAddress>ssh.sf.net</siteAddress>
+  <siteDirectory>/home/groups/s/si/sillyexceptions/htdocs</siteDirectory>
   <organization>
     <name>Silly exceptions project team</name>
     <url>http://sourceforge.net/projects/sillyexceptions</url>
