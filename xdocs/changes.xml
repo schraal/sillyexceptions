@@ -9,7 +9,7 @@
     <release version="1-0" date="2004-09-05">
       <action dev="hippe" type="release">Initial release</action>
     </release>
-    <release version="1-0-1" date="2004-09-05">
+    <release version="1-0-1" date="2004-09-06">
       <action dev="hippe" type="release">Fixed missing constructors in OutOfTheBlueException</action>
     </release>
   </body>
