@@ -33,6 +33,14 @@
     <developerConnection>scm:cvs:ext:hippe@cvs.sourceforge.net:/cvsroot/sillyexceptions:sillyexceptions</developerConnection>
     <url>http://cvs.sourceforge.net/viewcvs.py/sillyexceptions/sillyexceptions/</url>
   </repository>
+  <mailingLists>
+    <mailingList>
+      <name>Silly exceptions user list</name>
+      <subscribe>sillyexceptions-users-subscribe@lists.sourceforge.net</subscribe>
+      <unsubscribe>sillyexceptions-users-unsubscribe@lists.sourceforge.net</unsubscribe>
+    </mailingList>
+  </mailingLists>
+
   <developers>
     <developer>
       <name>Hilbert Schraal</name>
