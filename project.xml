@@ -5,7 +5,7 @@
   <id>sillyexceptions</id>
   <name>Silly exceptions</name>
   <groupId>sillyexceptions</groupId>
-  <currentVersion>1-0-1</currentVersion>
+  <currentVersion>1.0.2-dev</currentVersion>
   <inceptionYear>2004</inceptionYear>
   <package>net.sf.sillyexceptions</package>
   <description><![CDATA[
@@ -23,16 +23,19 @@
   <issueTrackingUrl>http://sourceforge.net/tracker/?atid=678567&amp;group_id=117593&amp;func=browse</issueTrackingUrl>
   <siteAddress>ssh.sf.net</siteAddress>
   <siteDirectory>/home/groups/s/si/sillyexceptions/htdocs</siteDirectory>
+  
   <organization>
     <name>Silly exceptions project team</name>
     <url>http://sourceforge.net/projects/sillyexceptions</url>
     <logo>http://sourceforge.net/sflogo.php?group_id=61626&amp;type=5</logo>
   </organization>
+  
   <repository>
     <connection>scm:cvs:pserver:anonymous@cvs.sourceforge.net:/cvsroot/sillyexceptions:sillyexceptions</connection>
     <developerConnection>scm:cvs:ext:hippe@cvs.sourceforge.net:/cvsroot/sillyexceptions:sillyexceptions</developerConnection>
     <url>http://cvs.sourceforge.net/viewcvs.py/sillyexceptions/sillyexceptions/</url>
   </repository>
+  
   <mailingLists>
     <mailingList>
       <name>Silly exceptions user list</name>
@@ -61,7 +64,17 @@
       </roles>
       <timezone>+2</timezone>
     </developer>
+    <developer>
+      <name>Age Mooy</name>
+      <id>amooy</id>
+      <email>amooy at users sourceforge net</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <timezone>+2</timezone>
+    </developer>
   </developers>
+  
   <licenses>
     <license>
       <name>GNU Lesser General Public License</name>
@@ -69,10 +82,13 @@
       <distribution>manual</distribution>
     </license>
   </licenses>
+  
   <dependencies/>
+  
   <build>
     <sourceDirectory>src/java/</sourceDirectory>
   </build>
+  
   <versions>
     <version>
       <id>1-0</id>
