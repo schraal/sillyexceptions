@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<project>
+
+	<pomVersion>3</pomVersion>
+	<name>Silly exceptions</name>
+	<groupId>sillyexceptions</groupId>
+	<id>sillyexceptions</id>
+	<currentVersion>1.0</currentVersion>
+	<package>net.sourceforge.sillyexceptions</package>
+
+	<dependencies>
+	</dependencies>
+
+	<build>
+
+		<sourceDirectory>src/java/</sourceDirectory>
+		<unitTestSourceDirectory>src/java</unitTestSourceDirectory>
+
+		<integrationUnitTestSourceDirectory/>
+
+		<unitTest>
+			<includes>
+				<include>**/Test*.java</include>
+			</includes>
+			<excludes/>
+		</unitTest>
+
+	</build>
+
+</project>
+
+
+
+
+
+
+
